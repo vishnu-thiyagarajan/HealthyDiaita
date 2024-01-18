@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <link rel="stylesheet" href="../all.css"/> -->
+    <!-- <link rel="stylesheet" href="fonts.css"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Harini</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo160.png" alt=""/>
+        </div>
+        <div class="menu" onclick="navToggle()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="navClose()">Home</a></li>
+                <li><a href="#specialization" onclick="navClose()">Specialization</a></li>
+                <li><a href="#aboutme" onclick="navClose()">About Me</a></li>
+                <li><a href="#gallery" onclick="navClose()">Gallery</a></li>
+                <li><a href="#reachout" onclick="navClose()">Reach Out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="home" id="home">
+        <div class="content animatable bounceInLeft">
+            <div class="profile">
+                <img src="images/Harini.png" alt="">
+            </div>
+            <h1>Hi! I'm Harini<br>Shankar</h1>
+            <h3>Nutritionist focused in <br>Holistic Health & diet</h3>
+            <br>
+            <br>
+            <h4>Follow me on</h4>
+            <div class="buttons">
+                <a target="_blank" href="https://www.instagram.com/healthydiaita?r=nametag"><button><i class="fab fa-instagram"></i> Instagram</button></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCRopQ6LMRH2c0W9yo6js3ew"><button><i class="fab fa-youtube"></i> YouTube</button></a>
+                <a target="_blank" href="https://www.linkedin.com/in/harini-s-3899a988/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button><i class="fab fa-linkedin-in"></i> LinkedIn</button></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/Home.svg" alt="">
+        </div>
+    </div>
+    <div class="specialization" id="specialization">
+        <h1>Specialization</h1>
+    
+        <div class="box-container">
+    
+            <div class="box animatable fadeInUp">
+                <img src="images/specialization/WeightManagement.svg" alt="">
+                <h3>Weight Management</h3>
+                <p>
+                    Weight management isn't just about numbers; it's about cultivating a healthy, sustainable lifestyle. <span id="dots1">...</span><span id="more1">Quick fixes might promise rapid results, but they often come at the expense of long-term well-being. As a seasoned professional, I've collaborated with individuals and couples, guiding them towards not just weight loss or gain but fostering lasting, positive lifestyle changes.
+                    Patience, consistent efforts, and unwavering belief form the foundation of our journey. Together, let's break free from the cycle of fad diets and embark on a path where health and happiness coexist, ruling out the odds of short-term gains with long-term consequences. Your transformative journey awaits, and I'm here to guide you every step of the way.</span>
+                    <a onclick="readToggle(1)" id="readMore1"> Read More</a>
+                </p>
+            </div>
+    
+            <div class="box animatable fadeInUp">
+                <img src="images/specialization/PCOS.svg" alt="">
+                <h3>PCOS</h3>
+                <p>
+                    In my practice, I've successfully guided numerous clients facing Polycystic Ovary Syndrome (PCOS), <span id="dots2">...</span><span id="more2">a condition that has become increasingly prevalent. Recognizing the urgency to address this growing concern, I believe that making subtle lifestyle adjustments can significantly contribute to reducing its prevalence.
+                    According to the World Health Organization (WHO), PCOS affects an estimated 8–13% of reproductive-aged women, with up to 70% of affected women remaining undiagnosed globally. It's time to alter this narrative. Together, let's embark on a journey to proactively manage PCOS by implementing small, impactful changes in our lives. Your well-being is at the heart of this mission, and I'm here to support you in transforming the statistics and fostering a healthier future.</span>
+                    <a onclick="readToggle(2)" id="readMore2"> Read More</a>
+                </p>
+            </div>
+
+            <div class="box animatable fadeInUp">
+                <img src="images/specialization/FertilitySupportiveNutrition.svg" alt="">
+                <h3>Fertility Supportive Nutrition</h3>
+                <p>
+                    In the face of rising infertility challenges and the surge in IVF treatments, I've successfully guided <span id="dots3">...</span><span id="more3">numerous couples and even many doctors like gynecologists to redefine diet and lifestyle patterns. Often, personal and professional demands can lead to negligence in crucial aspects affecting fertility.
+                    Handling cases post multiple IVF failures, implantation challenges, and more, I've witnessed transformative success stories. It brings immense satisfaction and renewed enthusiasm to be a part of couples' journeys, culminating in joyous news. Your fertility path is unique, and together, we can navigate it with personalized support and strategic changes, ensuring a brighter and fulfilling destination.</span>
+                    <a onclick="readToggle(3)" id="readMore3"> Read More</a>
+                </p>
+            </div>
+    
+            <div class="box animatable fadeInUp">
+                <img src="images/specialization/MaternalNutrition.svg" alt="">
+                <h3>Maternal Nutrition</h3>
+                <p>
+                    Maternal health is paramount, but it's a journey that involves both parents. Recognizing the profound <span id="dots4">...</span><span id="more4">impact on a tiny life entirely dependent on the mother, I encourage active participation from fathers in this crucial journey.
+                    From preconception planning to pregnancy, post-delivery care, and lactation, this program extends beyond the expectant mother. We aim for not just a healthy pregnancy but also set the foundation for the baby's future well-being, considering the early lifestyle disorders prevalent today.
+                    In this holistic approach, both parents play pivotal roles, supporting each other every step of the way. Together, let's ensure a healthy start for your growing family. No worries – I'm here to guide and assist you on this beautiful and significant journey towards parenthood.</span>
+                    <a onclick="readToggle(4)" id="readMore4"> Read More</a>
+                </p>
+            </div>
+    
+            <div class="box animatable fadeInUp">
+                <img src="images/specialization/TherapeuticDiet.svg" alt="">
+                <h3>Therapeutic Diet</h3>
+                <p>
+                    With a robust background as a clinical dietitian in hospital settings, I bring a wealth of hands-on experience <span id="dots5">...</span><span id="more5">to elevate the well-being of individuals facing diverse health challenges. My specialized focus encompasses diabetes, blood pressure extremes, thyroid disorders, fatty liver, heart issues, kidney concerns, and more. Having navigated the intricacies of critical care in the ICU, I'm well-versed in providing tailored nutritional support for those in the most critical states. Trust in my experience to guide you towards optimal health and well-being.</span>
+                    <a onclick="readToggle(5)" id="readMore5"> Read More</a>
+                </p>
+            </div>
+    
+            <div class="box animatable fadeInUp">
+                <img src="images/specialization/Autism&PediatricDiet.svg" alt="">
+                <h3>Autism & Pediatric Diet</h3>
+                <p>
+                    In the whirlwind of compromises parents make for their children daily, crafting a nutritious eating <span id="dots6">...</span><span id="more6">plan can be a source of concern. From handling Pediatric ICU cases to assisting kids with or without special conditions, I've been a guide for parents navigating through their myriad questions.
+                    In an era where childhood obesity is on the rise, understanding a child's metabolism is crucial. Trust me to provide the special understanding needed to ensure your child's nutritional needs are met. I'm here to alleviate your concerns and empower you with the knowledge to foster a healthy and thriving future for your little ones.</span>
+                    <a onclick="readToggle(6)" id="readMore6"> Read More</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="aboutme"></div>
+    <div class="aboutme">
+        <div class="image">
+            <img src="images/AboutMe.svg" alt="">
+        </div>
+        <div class="content animatable bounceInRight">
+            <h1>about me</h1>
+            <p>I'm with you to embark on a journey to optimal health with a touch of expertise and a dash of personalized care. As your dedicated dietitian, I bring a rich tapestry of experience in therapeutic diets to tailor a wellness path just for you.</p><br>
+            <p>What sets me apart is not just theoretical knowledge but a proven track record of positive outcomes. I've worked with individuals facing a spectrum of health challenges, helping them navigate their nutritional needs and achieve tangible results.</p>
+            <div class="buttons">
+                <button onclick="vidToggle()"><i class="fab fa-youtube"></i> Know More</button>
+            </div>
+        </div>
+    </div>
+    <div class="video-container">
+        <i class="fas fa fa-times" id="close-btn" onclick="vidToggle()"></i>
+        <video src="images/HariniIntro.mp4" controls> </video>
+    </div>
+    <div class="gallery" id="gallery">
+        <h1>Gallery</h1>
+        <div class="content">
+            <div>
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img1.jpg" alt="">
+            </div>
+            <div class="big-stretch">
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img2.jpg" alt="">
+            </div>
+            <div class="h-stretch">
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img3.jpg" alt="">
+            </div>
+            <div>
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img4.jpg" alt="">
+            </div>
+            <div class="h-stretch">
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img5.jpg" alt="">
+            </div>
+            <div class="v-stretch">
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img6.jpg" alt="">
+            </div>
+            <div class="v-stretch">
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img7.jpg" alt="">
+            </div>
+            <div>
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img8.jpg" alt="">
+            </div>
+            <div class="h-stretch">
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img9.jpg" alt="">
+            </div>
+            <div>
+                <img class="animatable animationDelayMed bounceIn" src="images/gallery/img10.jpg" alt="">
+            </div>
+        </div>
+        <div class="popup-image animatable bounceIn">
+            <span>&times;</span>
+            <img src="images/gallery/img1.jpg" alt="">
+        </div>
+    </div>
+    <div class="reachout" id="reachout">
+        <div class="content animatable bounceInLeft">
+            <h1>Reach Out</h1>
+            <div class="buttons">
+                <a target="_blank" href="https://forms.gle/CdZQrArhRz8FNaEr9"><button><i class="fa fa-file"></i> Join Here</button></a>
+                <a href="whatsapp://send?text=Hi Harini!&amp;phone=+919108627637"><button><i class="fab fa-whatsapp"></i> Whatsapp Me</button></a>
+                <a href="tel: 9108627637"><button><i class="fas fa-phone "></i> Call Me Now</button></a>
+            </div>
+            <div class="fields">
+                <div class="input-box">
+                    <h3>Full name</h3>
+                    <input id="name" type="text" placeholder="your name">
+                </div>
+                <div class="input-box">
+                    <h3>E-mail</h3>
+                    <input id="email" type="email" placeholder="your email id">
+                </div>
+                <div class="input-box">
+                    <h3>Message</h3>
+                    <textarea id="message" cols="30" rows="10" placeholder="message goes here..."></textarea>
+                </div>
+                <input id="sendmessage" type="submit" value="Send Mail">
+            </div>
+        </div>
+        <div class="image">
+            <img src="images/ReachOut.svg" alt="">
+        </div>
+    </div>
+    <div class="footer animatable fadeInUp" id="footer">
+        <div class="logo">
+            <a href="#home"><img src="images/logo160.png" alt=""/></a>
+        </div>
+        <div class="icons">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100023787139057&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://x.com/healthydiaita?t=InNyMm_fhv0nEsOsLgEnnw&s=08"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.reddit.com/u/healthydiaita/s/jAJKM59JpW"><i class="fab fa-reddit"></i></a>
+            <a target="_blank" href="https://www.quora.com/profile/Healthy-Diaita?ch=3&oid=1535129760&share=746be4f6&srid=uPfgzC&target_type=user"><i class="fab fa-quora"></i></a>
+        </div>
+        <h4>&copy; copyright @2024 by <span> Healthy Diaita</span></h4>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
