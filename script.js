@@ -85,7 +85,6 @@ var doAnimations = function() {
     
     // Check all animatables and animate them if necessary
     animatables.forEach(function(animatable) {
-        console.log(animatable.classList);
         if ((animatable.offsetTop + animatable.offsetHeight - 200) < offset) {
             animatable.classList.remove('animatable');
             animatable.classList.add('animated');
